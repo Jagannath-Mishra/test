@@ -27,4 +27,6 @@ public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 	
 	@Query(value = "select e.password from Employee e where e.email like ?1")
 	public String findEmployeePassword(String email); 
+	
+	//main()- main method add
 }
