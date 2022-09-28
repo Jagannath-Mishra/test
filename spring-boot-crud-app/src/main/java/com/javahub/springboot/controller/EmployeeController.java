@@ -32,6 +32,7 @@ public class EmployeeController {
 	// @InitBinder - pre process every string data.
 	// removes the leading & trailing white spaces.
 	// If string only has white space .... trim it to null.
+	// Test 1
 
 	@InitBinder
 	public void initBinder(WebDataBinder dataBinder) {
